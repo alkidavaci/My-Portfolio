@@ -15,7 +15,7 @@ This website is a starter of my personal portfolio. Including a short biography,
 
 ## Usage
 
-![KIDA's Portfolio](./Assets/imagine/screenshot-My-portfolio.png)
+![KIDA's Portfolio](./assets/imagine/screenshot-My-portfolio.png)
 
 Navigate to [KIDA's Portfolio]( https://alkidavaci.github.io/My-Portfolio) to view the web page and [My-portfolio](https://github.com/alkidavaci/My-Portfolio) in GitHub.
 
