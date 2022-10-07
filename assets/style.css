@@ -124,7 +124,7 @@ main {
   margin-bottom: 20px;
   position: relative;
   opacity: 0.8;
-  }
+}
 
 .img2 {
   border: 10px ridge var(--lightBlue);
@@ -283,7 +283,6 @@ main {
 
 /* Added MediaQuery max-width 768px */
 @media screen and (max-width: 768px) {
-  
   #logo a {
     font-size: 20px;
     height: 50px;
@@ -292,24 +291,65 @@ main {
     font-size: 15px;
     height: 50px;
   }
-  .banner h2{
-font-size: 50px;
+  .banner h2 {
+    font-size: 50px;
   }
-  .about{
+  .about {
     font-size: 80%;
   }
-  .img1{
+  .img1 {
     width: 450px;
     height: 420px;
     background-size: 450px 420px, cover;
     margin: 10px 0 0 50px;
   }
   .img2,
-  .img3{
+  .img3 {
     width: 450px;
     height: 420px;
     background-size: 450px 420px, cover;
     margin: 10px 0 0 50px;
+  }
 }
 
+/* Added MediaQuery max-width 576px */
+@media screen and (max-width: 576px) {
+  #logo a {
+    font-size: 19px;
+  }
+  .nav a {
+    font-size: 10px;
+  }
+  .banner h2 {
+    font-size: 30px;
+    padding-bottom: 20%;
+  }
+  .banner {
+    height: auto;
+  }
+  .img1 {
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    background-size: 100% 300px, cover;
+  }
+  .img2-3 {
+    width: 100%;
+  }
+  .img2,
+  .img3 {
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 300px;
+    background-size: 80% 300px, fill;
+  }
+  .contactMe ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactMe a {
+    font-size: 30%;
+    width: 100%;
+    padding: 10px 10px;
+  }
 }
